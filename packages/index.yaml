@@ -9,7 +9,7 @@ entries:
     name: app-job
     type: application
     urls:
-    - https://d1tdtv8n1l34ny.cloudfront.net/app-job-0.1.0.tgz
+    - https://nponcian.github.io/pp-helm-charts/packages/app-job-0.1.0.tgz
     version: 0.1.0
   app-service:
   - apiVersion: v2
@@ -20,7 +20,7 @@ entries:
     name: app-service
     type: application
     urls:
-    - https://d1tdtv8n1l34ny.cloudfront.net/app-service-0.1.0.tgz
+    - https://nponcian.github.io/pp-helm-charts/packages/app-service-0.1.0.tgz
     version: 0.1.0
   app-worker:
   - apiVersion: v2
@@ -31,7 +31,7 @@ entries:
     name: app-worker
     type: application
     urls:
-    - https://d1tdtv8n1l34ny.cloudfront.net/app-worker-0.1.0.tgz
+    - https://nponcian.github.io/pp-helm-charts/packages/app-worker-0.1.0.tgz
     version: 0.1.0
   rabbitmq:
   - apiVersion: v2
@@ -42,6 +42,6 @@ entries:
     name: rabbitmq
     type: application
     urls:
-    - https://d1tdtv8n1l34ny.cloudfront.net/rabbitmq-0.3.0.tgz
+    - https://nponcian.github.io/pp-helm-charts/packages/rabbitmq-0.3.0.tgz
     version: 0.3.0
 generated: "2022-10-10T17:14:13.834238+08:00"
