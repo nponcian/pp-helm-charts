@@ -1,0 +1,47 @@
+apiVersion: v1
+entries:
+  app-job:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-10T17:14:13.835119+08:00"
+    description: A generic Helm chart for app jobs
+    digest: 7751217a7a7ad098e8e0f74b08e930275bb5988ee75ad1dd42444f4d09be1aec
+    name: app-job
+    type: application
+    urls:
+    - https://d1tdtv8n1l34ny.cloudfront.net/app-job-0.1.0.tgz
+    version: 0.1.0
+  app-service:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-10T17:14:13.836197+08:00"
+    description: A generic Helm chart for app services
+    digest: d059312c3b310d257aeebc5c36275d62004a5cadbd661d624ca91dbcc4348e8e
+    name: app-service
+    type: application
+    urls:
+    - https://d1tdtv8n1l34ny.cloudfront.net/app-service-0.1.0.tgz
+    version: 0.1.0
+  app-worker:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-10-10T17:14:13.837627+08:00"
+    description: A generic Helm chart for app workers
+    digest: 8522cb8d4f632f21d826ca46024731bc87b59eaf5d4b0cc895ccb60c391db4e8
+    name: app-worker
+    type: application
+    urls:
+    - https://d1tdtv8n1l34ny.cloudfront.net/app-worker-0.1.0.tgz
+    version: 0.1.0
+  rabbitmq:
+  - apiVersion: v2
+    appVersion: 3.8-management-alpine
+    created: "2022-10-10T17:14:13.837973+08:00"
+    description: Basic RabbitMQ with Management Plugin
+    digest: 4018ebab1c801ef43847d71557108ac3efee6ade4b5e3e607ccee19efe170831
+    name: rabbitmq
+    type: application
+    urls:
+    - https://d1tdtv8n1l34ny.cloudfront.net/rabbitmq-0.3.0.tgz
+    version: 0.3.0
+generated: "2022-10-10T17:14:13.834238+08:00"

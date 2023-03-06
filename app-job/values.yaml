@@ -1,0 +1,22 @@
+image:
+  repository: ""
+  pullPolicy: IfNotPresent
+  tag: ""
+
+nameOverride: ""
+fullnameOverride: ""
+
+# Do not override this
+serviceAccount:
+  create: false
+  name: application
+
+job:
+  command: []
+  limit: 4
+
+resources: {}
+
+env: {}
+
+envVarsFromSecret: {}
